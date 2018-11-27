@@ -1,0 +1,15 @@
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery']
+Test size: 0.3
+   accuracy 0.33517116025446836
+   weightedPrec 0.333736800289861
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.10      0.10      0.10      3495
+        low       0.41      0.41      0.41     13619
+     medium       0.38      0.38      0.38     12507
+       high       0.00      0.00      0.00       103
+  very_high       0.09      0.09      0.09      3286
+
+avg / total       0.33      0.34      0.33     33010
