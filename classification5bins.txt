@@ -1,0 +1,280 @@
+ [(79.98, 84.0] < (84.0, 88.0] < (88.0, 92.0] < (92.0, 96.0] < (96.0, 100.0]]
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery']
+Test size: 0.3
+   accuracy 0.5050893668585277
+   weightedPrec 0.5064972219540239
+Feature importances: 
+   vintage:   0.1566477454887974
+   country:   0.019733686542815213
+   price:   0.23297724541606904
+   province:   0.04613635274821355
+   region_1:   0.1105692063831987
+   taster_name:   0.036864964169668994
+   variety:   0.12192508941017222
+   winery:   0.27514570984106484
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.40      0.42      0.41      3495
+        low       0.56      0.56      0.56     13619
+     medium       0.53      0.52      0.52     12507
+       high       0.16      0.17      0.17       103
+  very_high       0.32      0.33      0.32      3286
+
+avg / total       0.51      0.51      0.51     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'word_count']
+Test size: 0.3
+   accuracy 0.5177521963041503
+   weightedPrec 0.5197282766370984
+Feature importances: 
+   vintage:   0.11171994484221363
+   country:   0.025269004887701448
+   price:   0.22309731935902793
+   province:   0.05197520343252088
+   region_1:   0.10647894124146938
+   taster_name:   0.0454295113394835
+   variety:   0.10019380741435323
+   winery:   0.21007585558639993
+   word_count:   0.12576041189683002
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.40      0.43      0.42      3495
+        low       0.57      0.57      0.57     13619
+     medium       0.54      0.52      0.53     12507
+       high       0.14      0.17      0.16       103
+  very_high       0.38      0.39      0.38      3286
+
+avg / total       0.52      0.52      0.52     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'tf_grouped_1', 'tf_grouped_2', 'tf_grouped_3']
+Test size: 0.3
+   accuracy 0.48748863980611934
+   weightedPrec 0.48865300958617514
+Feature importances: 
+   vintage:   0.08114592587818012
+   country:   0.019859473719033127
+   price:   0.19599206465957308
+   province:   0.03333629055932573
+   region_1:   0.07387446322409721
+   taster_name:   0.03442350476929476
+   variety:   0.05732829434573185
+   winery:   0.14659377187880399
+   tf_grouped_1:   0.11283605335371301
+   tf_grouped_2:   0.11132139389854644
+   tf_grouped_3:   0.13328876371370066
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.38      0.39      0.38      3495
+        low       0.54      0.55      0.54     13619
+     medium       0.51      0.50      0.51     12507
+       high       0.14      0.14      0.14       103
+  very_high       0.30      0.32      0.31      3286
+
+avg / total       0.49      0.49      0.49     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'tfIdf_grouped_1', 'tfIdf_grouped_2', 'tfIdf_grouped_3']
+Test size: 0.3
+   accuracy 0.4797031202665859
+   weightedPrec 0.4811875720254696
+Feature importances: 
+   vintage:   0.0782142454183086
+   country:   0.016785035760308858
+   price:   0.19188207661093734
+   province:   0.03369418143798333
+   region_1:   0.07039386016188821
+   taster_name:   0.03265557284461222
+   variety:   0.05980248216449525
+   winery:   0.13791017876720998
+   tfIdf_grouped_1:   0.12377728959603293
+   tfIdf_grouped_2:   0.12181308219759755
+   tfIdf_grouped_3:   0.13307199504062575
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.36      0.37      0.37      3495
+        low       0.54      0.54      0.54     13619
+     medium       0.50      0.49      0.50     12507
+       high       0.17      0.19      0.18       103
+  very_high       0.30      0.31      0.31      3286
+
+avg / total       0.48      0.48      0.48     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'pr_5', 'pr_6', 'pr_7', 'pr_8', 'pr_9', 'tas_5', 'tas_6', 'tas_7', 'tas_8', 'tas_9']
+Test size: 0.3
+   accuracy 0.49485004544077554
+   weightedPrec 0.4960941244443992
+Feature importances: 
+   vintage:   0.022702982964946872
+   country:   0.005064796468886303
+   price:   0.23411067277184353
+   province:   0.040591130786675575
+   region_1:   0.11511588301596536
+   taster_name:   0.03155604191887566
+   variety:   0.11571781407017512
+   winery:   0.27084241345261084
+   pr_5:   0.01591031984268725
+   pr_6:   0.014782599088996182
+   pr_7:   0.017075907403169416
+   pr_8:   0.016292148317445868
+   pr_9:   0.016341512461561937
+   tas_5:   0.01689491814917075
+   tas_6:   0.016553151312068533
+   tas_7:   0.014722932576632224
+   tas_8:   0.014919868023569757
+   tas_9:   0.020804907374718972
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.38      0.41      0.40      3495
+        low       0.55      0.56      0.55     13619
+     medium       0.52      0.50      0.51     12507
+       high       0.15      0.17      0.16       103
+  very_high       0.31      0.31      0.31      3286
+
+avg / total       0.50      0.49      0.50     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'similarityTop3WinesByVariety']
+Test size: 0.3
+   accuracy 0.5028173280823993
+   weightedPrec 0.5040924134563699
+Feature importances: 
+   vintage:   0.09469403384004803
+   country:   0.020569156480584515
+   price:   0.20608170745575766
+   province:   0.046861935605588025
+   region_1:   0.0961394051127673
+   taster_name:   0.04337947711103119
+   variety:   0.08496432734503205
+   winery:   0.1725899573381793
+   similarityTop3WinesByVariety:   0.23471999971101182
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.38      0.40      0.39      3495
+        low       0.56      0.56      0.56     13619
+     medium       0.53      0.51      0.52     12507
+       high       0.23      0.22      0.23       103
+  very_high       0.35      0.36      0.35      3286
+
+avg / total       0.50      0.50      0.50     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'word_count', 'tf_grouped_1', 'tf_grouped_2', 'tf_grouped_3']
+Test size: 0.3
+   accuracy 0.5135413511057255
+   weightedPrec 0.5139955318041849
+Feature importances: 
+   vintage:   0.0718068160316493
+   country:   0.02237763643098422
+   price:   0.18977042399731125
+   province:   0.04087457665193213
+   region_1:   0.0691428477538169
+   taster_name:   0.038287670345090404
+   variety:   0.053665695078395484
+   winery:   0.12212745520495473
+   word_count:   0.09838371681936603
+   tf_grouped_1:   0.09785703162372211
+   tf_grouped_2:   0.09582014277973366
+   tf_grouped_3:   0.09988598728304393
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.40      0.41      0.41      3495
+        low       0.56      0.57      0.57     13619
+     medium       0.53      0.52      0.53     12507
+       high       0.16      0.17      0.16       103
+  very_high       0.38      0.38      0.38      3286
+
+avg / total       0.51      0.51      0.51     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'word_count', 'tfIdf_grouped_1', 'tfIdf_grouped_2', 'tfIdf_grouped_3']
+Test size: 0.3
+   accuracy 0.5111178430778552
+   weightedPrec 0.5117830617037256
+Feature importances: 
+   vintage:   0.0697270091670323
+   country:   0.021267543557493367
+   price:   0.18687118646033948
+   province:   0.037988126162963015
+   region_1:   0.07189092007134994
+   taster_name:   0.03997887079369463
+   variety:   0.05783163946844667
+   winery:   0.11705511941470127
+   word_count:   0.09463011933590475
+   tfIdf_grouped_1:   0.10339709058213088
+   tfIdf_grouped_2:   0.09498343721989942
+   tfIdf_grouped_3:   0.10437893776604432
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.40      0.41      0.41      3495
+        low       0.56      0.56      0.56     13619
+     medium       0.53      0.52      0.52     12507
+       high       0.18      0.23      0.21       103
+  very_high       0.37      0.37      0.37      3286
+
+avg / total       0.51      0.51      0.51     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'word_count', 'pr_5', 'pr_6', 'pr_7', 'pr_8', 'pr_9', 'tas_5', 'tas_6', 'tas_7', 'tas_8', 'tas_9']
+Test size: 0.3
+   accuracy 0.5177219024538019
+   weightedPrec 0.5182696757965268
+Feature importances: 
+   vintage:   0.026177851636079687
+   country:   0.009004159619048066
+   price:   0.21527456244344095
+   province:   0.041486303758571874
+   region_1:   0.09692787774190706
+   taster_name:   0.03641540083332016
+   variety:   0.0921240614286643
+   winery:   0.18932980104176458
+   word_count:   0.11766528951554216
+   pr_5:   0.017758339929540637
+   pr_6:   0.01809414978582375
+   pr_7:   0.01666192750318426
+   pr_8:   0.016184620609262675
+   pr_9:   0.019142699283124346
+   tas_5:   0.015608464091758714
+   tas_6:   0.01818969349936944
+   tas_7:   0.01552691408702829
+   tas_8:   0.016118591003560875
+   tas_9:   0.022309292189007957
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.41      0.42      0.42      3495
+        low       0.57      0.57      0.57     13619
+     medium       0.53      0.52      0.53     12507
+       high       0.18      0.20      0.19       103
+  very_high       0.40      0.40      0.40      3286
+
+avg / total       0.52      0.52      0.52     33010
+Decision Tree Classifier with points divided into 5 bins 
+Built on: ['vintage', 'country', 'price', 'province', 'region_1', 'taster_name', 'variety', 'winery', 'word_count', 'similarityTop3WinesByVariety']
+Test size: 0.3
+   accuracy 0.5147833989700091
+   weightedPrec 0.5148969592875529
+Feature importances: 
+   vintage:   0.08284599551613361
+   country:   0.0236694373937882
+   price:   0.2021665581512788
+   province:   0.04525954974489454
+   region_1:   0.08858424164263316
+   taster_name:   0.04470134616152899
+   variety:   0.07318566027848548
+   winery:   0.14448524997609127
+   word_count:   0.1066907392019791
+   similarityTop3WinesByVariety:   0.18841122193318685
+Report By predicted class: 
+             precision    recall  f1-score   support
+
+   very_low       0.40      0.41      0.41      3495
+        low       0.56      0.57      0.56     13619
+     medium       0.53      0.53      0.53     12507
+       high       0.25      0.26      0.25       103
+  very_high       0.38      0.38      0.38      3286
+
+avg / total       0.51      0.51      0.51     33010
